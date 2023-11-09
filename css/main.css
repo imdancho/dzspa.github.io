@@ -1,0 +1,149 @@
+body {
+    background-color: #F7EDE2;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #F5CAC3;
+    font-size: large;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #F7EDE2;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #F28482;
+    width: 0%;
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+    .bottomright p {
+        color: white;
+        font-size: 80px;
+    }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    .bottomright p {
+        color: white;
+        font-size: 40px;
+    }
+}
+
+#aitu_pic img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    z-index: -1;
+    position: relative;
+    display: block;
+}
+
+#aitu_pic {
+    position: relative;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(242, 132, 130, 0.5));
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-family: 'Caveat';
+    color: #84A59D;
+}
+
+#new_form {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+#pics {
+    padding: 10px;
+    margin-top: 80px;
+    background-color: #f5f5f5;
+}
+
+#pics img {
+    width: 100%;
+}
+
+.col-md-4 {
+    padding: 10px;
+}
+
+#sizes {
+    padding: 30px;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    ;
+    background-color: #f5f5f5;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sizes img {
+    width: 100%;
+}
+
+
+
+#neww {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+    #neww {
+        height: 50vh;
+        width: 75vw;
+    }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    #neww {
+        width: 99vw;
+    }
+}
+
+.card-text {
+    font-family: 'Fira Sans';
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
