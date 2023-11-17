@@ -33,7 +33,7 @@
                             <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/procedures.html">Procedures</a>
+                            <a class="nav-link" href="/procedures.html">Procedures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/pics.html">
@@ -45,10 +45,10 @@
                             <a class="nav-link" href="/prices.html">Prices</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/giftcards.html">Giftcards</a>
-                        </li>
+                            <a class="nav-link active" href="/giftcards.html">Giftcards</a>
+                        </li>                        
                         <li class="nav-item">
-                            <a class="nav-link " href="/qa.html">Q&A</a>
+                            <a class="nav-link" href="/qa.html">Q&A</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -83,96 +83,62 @@
         </div>
     </div>
 
+    <div class="container" id="new_form" data-bs-theme="light">
+        <div class="col-md-4">
+            <img src="img/GIFTCARD.jpg" alt="GIFTCARD"><br>
+        </div>
 
+        <br>
+        <h2 class="form-label">Terms of use</h2>
+        <p>— Services under this certificate are provided by appointment 7 days in advance.</p>
+        <p>— The certificate is valid for 3 months from the date of purchase. When booking with a certificate, you need to indicate the serial number of the certificate or send a photo of it</p>
+        <p>— Your entry is considered confirmed after written confirmation from the administrators. When visiting for the procedure, you must have the certificate with you. It is the same fee for the procedure</p>
+        <p>— A refund under the certificate is possible to the Buyer within 14 days from the date of purchase, provided there is a receipt. The refund will be made to the Buyer in the same way as payment was made. For damage to the certificate (form, envelope), 1500 tenge is deducted from the total amount.</p>
+        <p>— If the denomination of the certificate is less than the selected procedure, the certificate holder can pay the remaining amount in cash.</p>
+        <p>— The remaining amount is not refundable, it can be used in the next procedure.</p>
+        <p>— If the client is unable to use the certificate, it can be transferred to third parties. To do this, you will need to notify the administrator when booking.</p>
+        <br>
 
-
-    <div class="container-fluid" id="sizes">
-        <div class="container text-center">
-            <button onclick="w3.toggleShow('img')" style="margin-top: 30px;">Hide/Show all pics</button>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-                        <img class="card-img-top" src="/img/image9.png" alt="image9">
-                        <div class="card-body">
-                            <h5 class="card-title">Facials</h5>
-                            <p class="card-text">A facial is a deep-cleansing, exfoliating, and moisturizing treatment
-                                for the face. Facials can be tailored to address specific skin concerns, such as acne,
-                                dryness, or wrinkles.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="1_disc"></li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">See more pics</a>
-                            <a href="#" class="card-link">Sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-                        <img class="card-img-top" src="/img/image10.png" alt="image10">
-                        <div class="card-body">
-                            <h5 class="card-title">Body treatments</h5>
-                            <p class="card-text">Body treatments are designed to improve the appearance and health of
-                                the skin. Popular body treatments include body wraps, scrubs, and polishes.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="2_disc"></li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">See more pics</a>
-                            <a href="#" class="card-link">Sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-                        <img class="card-img-top" src="/img/image18.png" alt="image10">
-                        <div class="card-body">
-                            <h5 class="card-title">Massages</h5>
-                            <p class="card-text">Massages are a great way to relieve stress, tension, and pain. They can
-                                also improve circulation and flexibility. There are many different types of massages
-                                available, such as Swedish massage, deep tissue massage, and sports massage.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="3_disc"></li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">See more pics</a>
-                            <a href="#" class="card-link">Sign up</a>
-                        </div>
-                    </div>
-
+        <h2 class="form-label" id="personal_inf">Here you can order a gift card for your loved ones</h2>
+        <form class="row g-3">
+            <div class="col-md-7">
+                <label for="inputName" class="form-label">Receiver name</label>
+                <input type="text" class="form-control" id="inputName1">
+            </div>
+            <div class="col-md-7">
+                <label for="inputEmail4" class="form-label">Card denomination, tg</label>
+                <input type="number" class="form-control" id="inputNumber">
+            </div>
+            <div class="col-md-7">
+                <label for="inputNumber" class="form-label">Color of gift card</label>
+                <input type="color" class="form-control" id="inputColor">
+            </div>
+            <div class="col-md-7">
+                <label for="inputNumber" class="form-label">Your wishes, congratulations</label>
+                <input type="text" class="form-control" id="inputWishes">
+            </div>
+            <div class="col-md-7">
+                <label for="inputNumber" class="form-label">Mobile number</label>
+                <input type="number" class="form-control" id="inputNumber">
+            </div>
+            <div class="col-7">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck" id="gridCheck_text">
+                        Agree to the storage and processing of personal data
+                    </label>
                 </div>
             </div>
-        </div>
+            <br>
+            <div class="col-7">
+                <button type="button" id="submitt" class="btn btn-secondary" data-toggle="tooltip"
+                    data-placement="right"
+                    title="We will contact you to clarify how to deliver the gift to the address.">
+                    Sybmit! <!-- TOOLTIPS RIGHT HERE -->
+                </button>
+            </div>
+        </form>
     </div>
-
-    <script>
-        const procedures = {
-            disc1: "15%",
-            disc2: "10%",
-            disc3: "25%",
-            sale: "discount",
-            disc1_full: function () {
-                return this.disc1 + " " + this.sale;
-            },
-            disc2_full: function () {
-                return this.disc2 + " " + this.sale;
-            },
-            disc3_full: function () {
-                return this.disc3 + " " + this.sale;
-            },
-        };
-        disc1_out = procedures.disc1_full();
-        disc2_out = procedures.disc2_full();
-        disc3_out = procedures.disc3_full();
-        document.getElementById("1_disc").innerHTML = disc1_out;
-        document.getElementById("2_disc").innerHTML = disc2_out;
-        document.getElementById("3_disc").innerHTML = disc2_out;
-
-    </script>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -185,9 +151,12 @@
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/myjs.js"></script>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
-
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </body>
 
